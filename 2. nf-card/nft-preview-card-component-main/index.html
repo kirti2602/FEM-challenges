@@ -7,27 +7,36 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | NFT preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  Equilibrium #3429
 
-  Our Equilibrium collection promotes balance and calm.
 
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
+  <main class="card-outer-container">
+    <div class="nft-card-container">
+      <img class="nft-img" src="images/image-equilibrium.jpg" alt="">
+      <h2>  Equilibrium #3429 </h2>
+      <p>  Our Equilibrium collection promotes balance and calm.</p>
 
-  <div class="attribution">
+      <div class="inner-icon-flex">
+        <span class="cyan-span"><svg width="11" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z" fill="#00FFF8"/></svg>
+           0.041 ETH</span>
+        <span class="clock-icon"><svg width="17" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z" fill="#8BACD9"/></svg>
+          3 days left</span> 
+      </div>
+
+      <div><hr></div>
+      <div class="creator-avatar-box">
+        <img src="images/image-avatar.png" height="33" alt="">
+        <p>Creation of <span>Jules Wyvern</span></p>
+      </div>
+    </div>
+  </main>
+
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
 </body>
 </html>
