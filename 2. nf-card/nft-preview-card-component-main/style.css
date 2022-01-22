@@ -27,7 +27,7 @@ body,h2,p{
 }
 
 .nft-card-container{
-    width: 200px;
+    width: 220px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -92,7 +92,7 @@ hr{
 }
 
 .creator-avatar-box p{
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .creator-avatar-box span{
